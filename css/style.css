@@ -3832,6 +3832,12 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     font-weight: 700;
 }
 
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
 .testcontainer{
 
     position: relative;
