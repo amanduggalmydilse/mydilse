@@ -1811,7 +1811,7 @@ form label.error {
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     font-family: "Raleway",sans-serif;
-    color: white;
+    color: white !important;
 }
 
     .nav-menu ul.nav-menu-inner li a :hover {
