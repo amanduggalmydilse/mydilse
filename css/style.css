@@ -1746,7 +1746,7 @@ form label.error {
         .logo a img {
             width: 100%;
             position: absolute;
-            top: 17px;
+            top: -25px;
             left: 0px;
             transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
             -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -1811,6 +1811,7 @@ form label.error {
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     font-family: "Raleway",sans-serif;
+    color: white;
 }
 
     .nav-menu ul.nav-menu-inner li a :hover {
@@ -3468,7 +3469,10 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 } */
 
 
+.navigationbar{
 
+    background-color: #2F3B59;
+}
 
 
 
