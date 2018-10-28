@@ -6695,7 +6695,7 @@ li.h4header {
 {
     font-size: 11px;
     color: #737373;
-    padding: 25px 30px 20px;
+    padding: 20px 20px 20px;
 }
 .post .post-img-content
 {
@@ -6719,8 +6719,8 @@ li.h4header {
     display: inline-block;
     margin-bottom: 5px;
     color: #FFF;
-    padding: 10px 15px;
-    margin-top: 5px;
+    padding: 0px 0px;
+    margin-top: 0px;
 }
 
 
