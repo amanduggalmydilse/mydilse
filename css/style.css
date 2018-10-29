@@ -2016,7 +2016,7 @@ header.header-prepare .nav-bar-icon > span::after {
     }
 
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1330px) {
     .nav-menu ul.nav-menu-inner li {
         display: block;
         width: 100%;
@@ -6705,6 +6705,8 @@ li.h4header {
 .post .post-img-content img
 {
     position: absolute;
+    height: 220px;
+    width: 350px;
 }
 .post .post-title
 {
