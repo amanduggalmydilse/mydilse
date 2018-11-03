@@ -413,6 +413,9 @@ h1.large {
     -webkit-border-radius: 2px;
     -o-border-radius: 2px;
     margin-top: 15px;
+    background-color: #E60037;
+    color:white;
+    border-color: #E60037;
 }
 
     .btn i, button i, i.left {
@@ -2039,6 +2042,7 @@ header.header-prepare .nav-bar-icon > span::after {
         float: right;
         padding-top: 32px;
         padding-bottom: 32px;
+        color:white;
     }
 
     .nav-menu ul.nav-menu-inner li a, .header-fixed .nav-menu ul.nav-menu-inner li a {
@@ -3908,8 +3912,8 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 
 @media (min-width: 1200px) {
     .testcontainer {
-        width: 1140px;
-        max-width: 100%;
+        width: 100%;
+        
         padding-bottom: 40px;
     }
 }
@@ -6671,8 +6675,6 @@ li.h4header {
 
 
 
-
-
   .post
 {
     background-color: #FFF;
@@ -6695,7 +6697,7 @@ li.h4header {
 {
     font-size: 11px;
     color: #737373;
-    padding: 20px 0px 20px;
+    padding: 130px 0px 20px;
 }
 .post .post-img-content
 {
@@ -6706,7 +6708,7 @@ li.h4header {
 {
     position: absolute;
     height: 220px;
-    width: 350px;
+    width: 446px;
 }
 .post .post-title
 {
@@ -6733,6 +6735,15 @@ table, th, td {
 }
 
 
+#schooldescription{
+
+    line-height: 20px;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 0px 0 10px 0;
+    color: Black;
+    letter-spacing: 1px;
+}
 
 
 
@@ -6750,8 +6761,17 @@ table, th, td {
 
 
 
+.blogsfrontpage{
 
-
+    padding-bottom: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 
 
