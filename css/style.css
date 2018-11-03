@@ -414,8 +414,9 @@ h1.large {
     -o-border-radius: 2px;
     margin-top: 15px;
     background-color: #E60037;
-    color:white;
-    border-color: #E60037;
+    border: #E60037;
+    color: white;    
+  
 }
 
     .btn i, button i, i.left {
@@ -6744,6 +6745,7 @@ table, th, td {
     color: Black;
     letter-spacing: 1px;
 }
+
 
 
 
