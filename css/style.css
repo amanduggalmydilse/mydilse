@@ -6726,7 +6726,8 @@ li.h4header {
     color: #FFF;
     padding: 0px 0px;
     margin-top: 0px;
-    background-color: #2F3B59;
+    text-align: center;
+    width: 450px;
 }
 
 
