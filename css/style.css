@@ -827,6 +827,7 @@ form label.error {
 .row{
 
    padding-bottom: 40px; 
+   padding-top: 10px;
 }
 
 
@@ -1618,14 +1619,14 @@ form label.error {
 }
 
     .header.header-prepare, .header.header-light.header-prepare {
-        background-color: rgba(255, 255, 255, 0.95);
+        background-color:#2F3B59;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
         -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
         -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     }
 
     .header.header-dark.header-prepare {
-        background-color: rgba(54, 54, 54, 0.95);
+        background-color:#2F3B59;
         border-bottom: 0px none;
     }
 
@@ -1753,7 +1754,7 @@ form label.error {
         .logo a img {
             width: 100%;
             position: absolute;
-            top: -25px;
+            top: -35px;
             left: 0px;
             transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
             -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -6749,24 +6750,6 @@ table, th, td {
     color: Black;
     letter-spacing: 1px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .blogsfrontpage{
 
     padding-bottom: 0px;
@@ -6779,6 +6762,89 @@ table, th, td {
     margin-left: -15px;
 }
 
+.mission{
+
+    padding-top: 30px;
+}
+
+
+
+.impact{
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+.backgroundimage{
+    background: url(background.jpg);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    background: #000 url("background.jpg") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
+
+.backgroundimg{
+
+    background-image: url('https://ak0.picdn.net/shutterstock/videos/31086850/thumb/1.jpg');
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+
+
+.whoweare{
+
+    background-color: #2F3B59;
+    color: white;
+    }
+
+
+.supportbutton{
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.startaprojectbutton{
+    text-align: center;
+}
 
 
 
@@ -6787,14 +6853,58 @@ table, th, td {
 
 
 
+.cardimagee {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+  }
+  
+  .cardimagee-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  .cardimagee-bottom {
+    width: 100%;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
 
 
+.backgroundimage2{
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+    position:absolute;
+    z-index: 2;    
+}
+
+.backgroundimage2-top{
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    z-index: 2;
+}
+
+.backgroundimage2-bottom{
+    width: 100%;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    z-index: 2;
+}
 
 
+#testclass{
+    width:250px;
+    height:250px;
+    position:relative;
+    border:#000 solid 1px;
+    }
 
-
-
-
-
-
-
+    #c3{
+    width:100px;
+    height:50px;
+    border:#000 1px solid;
+    top:50px;
+    left:50px;
+    position:absolute;
+    }
